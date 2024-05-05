@@ -1,19 +1,36 @@
-# Websocket protocol using JavaScript
-
-## Overview
+# WebSocket Server
 
 This project is running a nodejs server in which we have implemented websocket protocol without using socket.io(or any other alternative).
 
-## Project Details
+## Introduction
 
-### Objective
-The objective of this project is to learn how websocket works and how can we implement it in JavaScript
+This WebSocket server allows communication between clients and the server using the WebSocket protocol. It handles WebSocket upgrade requests and manages WebSocket connections.
 
-### Technologies Used 🧑‍💻
-- Node.js
+## Features
 
-## About the Author 🤦‍♂️
+- Handles WebSocket upgrade requests
+- Supports WebSocket communication with clients
+- Parses WebSocket frames and messages
 
-This project was created by Mayank. I'm passionate about backend development and keep on trying my hands on frontend now and then 😄.
+## Installation
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/mayank-sahai/)
+1. Clone the repository:
+```
+git clone https://github.com/mayank-sahai/socket-js
+```
+2. Install dependencies:
+```
+cd websocket-server
+npm install
+```
+
+## Usage
+
+To use this WebSocket server, follow these steps:
+
+1.  Start the server by 
+``` 
+npm start 
+```
+2. Open `index.js` in your browser it will straight away start the handshake and send/receive messages
+3. Check logs (if you want 😄 )
